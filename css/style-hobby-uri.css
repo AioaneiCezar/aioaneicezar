@@ -126,7 +126,7 @@ li a:hover:not(.active) {
 }
 
 .row-left .column-2 img{
-    max-width: 65%;
+    width: 330px;
     border-radius: 20px;
   }
   
@@ -140,7 +140,13 @@ li a:hover:not(.active) {
     border-top-style: solid;
   }
 
-@media (max-width: 750px) {
+@media (max-width: 500px) {
+    .row-left .column-2 img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 900px) {
     .row-container{
         flex-direction: column;
     }

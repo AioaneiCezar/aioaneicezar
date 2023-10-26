@@ -136,7 +136,7 @@ li a:hover:not(.active) {
 }
 
 .row-left .column-2 img{
-  max-width: 65%;
+  width: 400px;
   border-radius: 20px;
 }
 
@@ -151,6 +151,12 @@ li a:hover:not(.active) {
 }
 
 @media (max-width: 750px) {
+  .row-left .column-2 img{
+    width: 320px;
+  }
+}
+
+@media (max-width: 1000px) {
   .row-container-top{
       flex-direction: column;
   }
